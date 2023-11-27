@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p,
+h1 {
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+ul li {
+  cursor: pointer;
+  justify-content: space-evenly;
+  padding-top: 5px;
+  list-style: none;
+}
+
+ul li:hover {
+  color: aqua;
+}
+nav {
+  height: 4.5rem;
+  background-color: #fff;
+}
+
+.app {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+
+.app::before {
+  background: linear-gradient(rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)),
+    url(./assets/bg3.jpg) no-repeat center center/cover;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.app .search {
+  text-align: center;
+  padding: 1rem;
+  height: 4.2rem;
+}
+
+.navi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navi input {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.1);
+  color: #f8f8f8;
+  border: 1px solid black;
+  margin-right: 10px;
+}
+
+.navi .icon-butt {
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navi .loc-icons {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: rgba(209, 209, 228, 0.719);
+}
+
+.navi .loc-icons:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition-delay: 0.2s;
+}
+
+::placeholder {
+  color: #f8f8f8;
+}
+
+.container {
+  max-width: 700px;
+  max-height: 700px;
+  margin: auto;
+  padding: 0 1rem;
+  margin-top: 11rem;
+  position: relative;
+  top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.app .top {
+  width: 100%;
+  margin: 0.1rem auto;
+}
+
+.app .bottom {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.bold {
+  font-weight: 700;
+}
+
+#wicon,
+#wiconP {
+  margin-top: -1.1rem;
+}
