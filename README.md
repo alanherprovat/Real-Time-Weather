@@ -1,5 +1,6 @@
 ## Real-Time-Weather
 I developed a single-page web application using React JS, which includes several key features. It fetches data from an API and displays the required outputs. Furthermore, I’ve incorporated an auto-search functionality to enhance the user experience. The screenshot below provides a visual representation of the web application’s interface.
+
 ![Preview1](https://drive.google.com/uc?export=view&id=1tnBWpdPOxYfqD12V9fq6GLNi7qwddf2m)
 
 ## Functionalities:
